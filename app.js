@@ -33,9 +33,9 @@ app.use('*', async (req, res) => {
   const text = req.query.text
   const hit = fetchCount()
   if (!text) return res.status(200).json({
-    author: 'zennn08 (aqul)',
+    author: 'XBotzLauncher',
     repository: {
-      github: 'https://github.com/zennn08/brat-api/'
+      github: 'https://github.com/XBotzLauncher/brat-api'
     },
     hit: await hit,
     message: "Parameter `text` diperlukan",
